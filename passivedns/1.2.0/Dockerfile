@@ -1,6 +1,6 @@
 # PassiveDNS
 # VERSION               0.1
-# docker run -it passivedns:1.2.0 bash
+# docker run -it passivedns:1.2.1 bash
 
 FROM       opennsm/debian
 MAINTAINER Syed Huq <deedarhuq@gmail.com>
@@ -14,7 +14,7 @@ ENV VIRTUSER opennsm
 # Program name
 ENV PROGRAM passivedns
 # Specify PassiveDNS version to download and install (e.g. 1.2.0)
-ENV VERS 1.2.0
+ENV VERS 1.2.1
 ENV DST /usr/local/bin
 
 # Install dependencies
